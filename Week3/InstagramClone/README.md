@@ -1,4 +1,4 @@
-# Blog Website
+# Instagram Clome Website
 Instagram clone website. Using HTML and CSS. 
 
 ## Prerequistes
