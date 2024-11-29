@@ -1,5 +1,5 @@
 # Instagram Clome Website
-Instagram clone website. Using HTML and CSS. 
+Instagram clone website. Using HTML and CSS. Bootstrap5 as a framework
 
 ## Prerequistes
  - Visual Studio code 
