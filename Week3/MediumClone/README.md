@@ -1,5 +1,5 @@
 # Medium Clone Website
-Medium clone website. Using HTML and CSS. 
+Medium clone website. Using HTML and CSS. Bootstrap5 as a framework
 
 ## Prerequistes
  - Visual Studio code 
