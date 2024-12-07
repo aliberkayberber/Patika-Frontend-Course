@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <header class="lg:px-16 px-4 bg-white container mx-auto flex flex-wrap items-center py-4 shadow-md">
+    <div class="flex-1 flex justify-between items-center">
+        <a href="#" class="text-xl">Company</a>
+    </div>
+
+    <label for="menu-toggle" class="pointer-cursor md:hidden block">
+      <svg class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <title>menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+
+    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        <nav>
+            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+                <li><a class="md:p-2 py-3 px-0 block" href="#">AboutUs</a></li>
+                <li><a class="md:p-2 py-3 px-0 block" href="#">Treatments</a></li>
+                <li><a class="md:p-2 py-3 px-0 block" href="#">Blog</a></li>
+                <li><a class="md:p-2 py-3 px-0 block md:mb-0 mb-2 rounded bg-purple-600 text-white" href="#">Sing Up</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div class="bg-white p-8 rounded-lg shadow">
+    <h1 class="text-3xl font-bold text-purple-700">Build it with Mamba</h1>
+    <p class="text-gray-600 mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, asperiores!</p>
+    <form class="mt-6">
+      <input type="text" placeholder="Your name" class="w-full border-gray-300 rounded-lg p-3 mb-4 shadow-md" />
+      <input type="email" placeholder="Email address" class="w-full border-gray-300 rounded-lg p-3 mb-4 shadow-md" />
+      <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg hover:bg-purple-800">Join the waitlist</button>
+    </form>
+  </div>
+  <div>
+    <img src="https://picsum.photos/200" alt="Image" class="w-full rounded-lg shadow" />
+  </div>
+</section>
+
+<div class="container mx-auto text-center px-4 sm:px-6 lg:px-8 py-8 ">
+  <h4 class="text-sm text-purple-700 uppercase ">How It works</h4>
+  <h1 class="text-3xl font-extrabold text-black">Build with Mamba is simple</h1>
+  <div class="grid grid-cols-1 md:grid-cols-3 mt-6 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="w-10 h-10 bg-purple-800 rounded-full gap-8 text-white text-center p-1 text-xl">1</div>
+        <h5 class="text-xl font-bold text-left">Nulla
+           <span class="text-md font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
+        </h5>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="w-10 h-10 bg-purple-800 rounded-full gap-8 text-white text-center p-1 text-xl">2</div>
+        <h5 class="text-xl font-bold text-left">Consectetur
+          <span class="text-md font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
+       </h5>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="w-10 h-10 bg-purple-800 rounded-full gap-8 text-white text-center p-1 text-xl">3</div>
+        <h5 class="text-xl font-bold text-left">Adipisicing
+          <span class="text-md font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing.</span>
+       </h5>
+      </div>
+  </div>
+</div>
+
+<section class="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 gap-8 grid grid-cols-1 md: grid-cols-2 content-between">
+  <div>
+    <img src="https://picsum.photos/200" alt="Image" class="w-full rounded-lg shadow" />
+  </div>
+  <div class="bg-white rounded-lg shadow text-center justify-items-center">
+    <div class="w-20 h-20 rounded-full bg-gray-100 mt-16 "></div>
+    <p class="mt-16 mx-16 italic font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere temporibus minima tempora. Perferendis, neque eaque?</p>
+     <h3 class="mt-16 text-gray-400">Lorem, ipsum dolor.</h3>
+     <h3 class="mt-2">Lorem, ipsum dolor.</h3>
+     <div class="flex  bottom-5 left-1/2 z-30  space-x-2 mt-6 justify-items-center " data-carousel-indicators="">
+        <button type="button" class="w-2 h-2 rounded-full bg-black hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+        <button type="button" class="w-2 h-2 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+        <button type="button" class="w-2 h-2 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+        <button type="button" class="w-2 h-2 rounded-full bg-gray-300 hover:bg-gray-400 focus:outline-none focus:bg-gray-400 transition"></button>
+      </div>
+  </div>
+</section>
+
+<section class="bg-white max-w-7xl mx-auto container px-4 sm:px-6 lg:px-8 py-16 content-between">
+  <h1 class="mt-4 text-black font-bold text-5xl">Lorem ipsum dolor sit.</h1>
+  <p class="mt-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea repellat corporis quibusdam ex. Ipsa sint deserunt dolores nam fuga similique tempora debitis, officiis autem quam beatae, obcaecati ea assumenda!</p>
+</section>
+
+<section class="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 gap-8 flex flex-row  mt-16">
+  <div class="basis-3/4">
+    <img src="https://picsum.photos/200" alt="Image" class="w-full rounded-lg shadow " />
+  </div>
+  <div class="flex flex-col basis-1//4  bg-white rounded-lg">
+    <button class="py-2 px-6 bg-indigo-600 w-40 text-white font-bold rounded-full hover:bg-indigo-700 transition ml-6 mt-6">Business</button>
+    <h3 class="py-5 text-4xl font-semibold text-center mx-2 mt-6">Curating a workplace that inspires team movement</h3>
+    <p class="text-gray-500 text-start mt-80 ml-6">November 30, 2020 <br /> By Leroy Jenkins</p>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="bg-white py-12 text-center rounded-xl shadow-lg">
+  <div class="py-10">
+    <h3 class="font-bold text-5xl">Our team is here to help you.</h3>
+    <a class="text-lg pt-5" href="#">Met our crew ></a>
+  </div>
+  <div class="bg-white place-items-center bg-gray-100 p-6">
+    <img class="rounded w-100 mx-auto" src="https://picsum.photos/id/6/1500/500" alt="" />
+  </div>
+</section>
+</div>
+
+<!-- Footer -->
+<footer class="bg-white py-6 shadow-md w-full mt-4 p-6">
+<div class="max-w-screen-xl mx-auto flex justify-between items-center px-10">
+<div class="text-2xl font-bold">
+  <a href="#">Mamba</a>
+</div>
+<div class="flex space-x-6 text-lg">
+  <a href="#" class="hover:text-indigo-600"><img class="w-6 h-6" src="./Mail.svg" alt="Mail" /></a>
+  <a href="#" class="hover:text-indigo-600"><img class="w-6 h-6" src="./X.svg" alt="X" /></a>
+  <a href="#" class="hover:text-indigo-600"><img class="w-6 h-6" src="./Github.svg" alt="GitHub" /></a>
+</div>
+</div>
+</footer>  
+
+</body>
+</html>
