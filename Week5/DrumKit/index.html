@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum kit</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+</head>
+<body class="bg-secondary">
+    <div class="container mx-auto bg-secondary mt-5">
+        <div class="text-center">
+            <h1 class="text-white fs-1">Play your dream song</h1>
+        </div>
+        <div class="text-center mt-5">
+            <img class="" src="./img/drum-removebg-preview.png" alt="Drum">
+        </div>
+        <div class="d-flex">
+            <button data-key="KeyValueA" onclick="ASound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">A</button>
+            <button data-key="KeyValueS" onclick="SSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">S</button>
+            <button data-key="KeyValueD" onclick="DSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">D</button>
+            <button data-key="KeyValueF" onclick="FSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">F</button>
+            <button data-key="KeyValueG" onclick="GSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">G</button>
+            <button data-key="KeyValueH" onclick="HSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">H</button>
+            <button data-key="KeyValueJ" onclick="JSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">J</button>
+            <button data-key="KeyValueK" onclick="KSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">K</button>
+            <button data-key="KeyValueL" onclick="LSound()" class="btn btn-primary rounded btn-lg mx-2 p-2 flex-fill">L</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
