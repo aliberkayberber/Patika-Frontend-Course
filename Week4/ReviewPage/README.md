@@ -5,7 +5,7 @@ Review website. Using HTML and CSS. Tailwind as a framework
  - Visual Studio code 
 
 ## Installing
-
+ 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/aliberkayberber/Patika-Frontend-Course/tree/main/Week4/ReviewPage
