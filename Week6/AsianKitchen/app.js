@@ -81,3 +81,53 @@ const menu = [
     desc: `Red bean paste dessert, serving with honey.`,
   },
 ];
+
+const koreanBtn = document.querySelector(".korean");
+const japaneseBtn = document.querySelector(".japanese");
+const chineseBtn = document.querySelector(".chinese");
+const allBtn = document.querySelector(".all");
+
+koreanBtn.addEventListener("click", () => {
+  const koreanMenu = menu.filter((item) => item.category === "Korea");
+  menuList(koreanMenu);
+});
+
+japaneseBtn.addEventListener("click", () => {
+  const japaneseMenu = menu.filter((item) => item.category === "Japan");
+  menuList(japaneseMenu);
+});
+
+chineseBtn.addEventListener("click", () => {
+  const chineseMenu = menu.filter((item) => item.category === "China");
+  menuList(chineseMenu);
+});
+
+allBtn.addEventListener("click", () => {
+  menuList(menu);
+});
+
+const menuList = (menuItems) => {
+  let displayMenu = menuItems.map((item) => {
+    return `<div class="menu-items col-lg-6 col-sm-12">
+            <img
+              src=${item.img}
+              alt=${item.title}
+              class="photo"
+            />
+            <div class="menu-info">
+              <div class="menu-title">
+                <h4>${item.title}</h4>
+                <h4 class="price">${item.price}</h4>
+              </div>
+              <div class="menu-text">
+                ${item.desc}
+              </div>
+            </div>
+          </div>
+    `;
+  });
+  displayMenu = displayMenu.join("");
+  const section = document.querySelector(".section-center");
+  section.innerHTML = displayMenu;
+};
+
