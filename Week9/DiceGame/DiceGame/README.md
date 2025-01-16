@@ -12,7 +12,7 @@ This project is a simple Dice Game created as part of the Patika Frontend Course
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/DiceGame.git
+    git clone https://github.com/aliberkayberber/Patika-Frontend-Course/tree/main/Week9/DiceGame/DiceGame
     ```
 2. Navigate to the project directory:
     ```sh
