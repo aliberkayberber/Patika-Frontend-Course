@@ -12,7 +12,7 @@ This project is part of the Patika Frontend Course, Week 10. It focuses on creat
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/BillGates.git
+    git clone https://github.com/aliberkayberber/Patika-Frontend-Course/tree/main/Week10/BillGates
     ```
 2. Navigate to the project directory:
     ```bash
