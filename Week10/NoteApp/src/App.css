@@ -1,0 +1,93 @@
+body {
+  background-color: #EAEAEA;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  color:#808080;
+}
+
+.note-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.note-container {
+  width: 500px; 
+  max-width: 90vw; 
+  height: 150px; 
+  margin: 0 ; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 2px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  background-color: #f9f9f9;
+  width: 400px;
+  border: none; 
+  border-radius: 8px; 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  resize: none; 
+  outline: none; 
+}
+
+.color-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; 
+  padding-top: 60px;
+}
+
+.add-button {
+  border-radius: 20px;
+  background-color: #44C767;
+  border: none;
+  color: white;
+  padding: 10px 30px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  cursor: pointer;
+  background-color: #185a2a;
+}
+
+.search-button {
+  border-radius: 50px;
+  padding: 10px;
+  margin: 20px;
+  text-align:left;
+  border: 2px solid gainsboro;
+  color:#141414;
+}
+
+.notes-list {
+  width: 500px; 
+  max-width: 90vw; 
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: row;   
+}
+
+.note-item {
+  padding: 10px;
+  border-radius: 2px;
+  min-width: 100px; 
+  max-width: auto; 
+  text-align: left;
+  color: #0B1C24;  
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
